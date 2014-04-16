@@ -10,7 +10,7 @@
           review="review.cyanogenmod.org" />
           
   <remote name="github"
-          fetch="git://github.com" />Telephony
+          fetch="git://github.com" />
           
   <remote name="pixel"
           fetch="git://github.com/Pixel2K14" />
@@ -475,7 +475,7 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" revision="kk" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" revision="kk" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pixel" revision="kk" />
-  <project path="packages/apps/Mms" name="packages_apps_Mms" />
+  <project path="packages/apps/Mms" name="packages_apps_Mms" remote="pixel" revision="kk" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="pixel" revision="kk" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="pixel" revision="kk" />
   <project path="vendor/pixel" name="vendor_pixel" remote="pixel" revision="kk" />
