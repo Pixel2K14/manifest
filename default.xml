@@ -481,6 +481,7 @@
   <project path="vendor/pixel" name="vendor_pixel" remote="pixel" revision="kk" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel" revision="kk" />
   <project path="frameworks/base" name="frameworks_base" remote="pixel" revision="kk" />
+  <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="pixel" revision="kk" />
   
   <!-- The Muppets -->
   <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="github" revision="cm-11.0" />
