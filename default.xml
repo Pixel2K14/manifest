@@ -488,5 +488,6 @@
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="pixel" revision="kk" />
   <project path="system/media" name="system_media" remote="pixel" revision="kk" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel" revision="kk" groups="pdk" />
+  <project path="packages/apps/PerformanceControl" name="horn3t/PerformanceControl" remote="github" revision="jb2" />
 
 </manifest>
