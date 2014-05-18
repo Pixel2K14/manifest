@@ -488,5 +488,8 @@
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="pixel" revision="kk" />
   <project path="development" name="development" remote="pixel" revision="kk" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="pixel" revision="kk" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" groups="pdk, linux, arm" remote="pixel" revision="kk" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" groups="pdk, linux, arm" remote="pixel" revision="kk" />
+
 
 </manifest>
