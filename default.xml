@@ -470,8 +470,8 @@
   <project path="packages/apps/ScreenRecorder" name="packages_apps_ScreenRecorder" remote="pixel" revision="kk" />
   <project path="packages/apps/DSPManager" name="packages_apps_DSPManager" remote="pixel" revision="kk" />
   <project path="vendor/pixel" name="vendor_pixel" remote="pixel" revision="kk" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel" revision="exp" />
-  <project path="frameworks/base" name="frameworks_base" remote="pixel" revision="exp" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel" revision="kk" />
+  <project path="frameworks/base" name="frameworks_base" remote="pixel" revision="kk" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="pixel" revision="kk" />
   <project path="system/media" name="system_media" remote="pixel" revision="kk" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel" revision="kk" groups="pdk" />
