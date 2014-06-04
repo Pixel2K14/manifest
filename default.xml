@@ -13,7 +13,7 @@
           fetch="git://github.com" />
           
   <remote name="pixel"
-          fetch="git://github.com/Pixel2K14" />
+          fetch="git://github.com/PixelROM" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
