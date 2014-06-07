@@ -4,20 +4,17 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
-
   <remote name="cm"
           fetch="git://github.com/CyanogenMod"
           review="review.cyanogenmod.org" />
-          
   <remote name="github"
           fetch="git://github.com" />
-          
   <remote name="pixel"
           fetch="git://github.com/PixelROM" />
-
+  <remote name="linaro"
+          fetch="http://android.git.linaro.org/git-ro/" />
   <remote  name="private"
            fetch="ssh://git@github.com" />
-
   <default revision="refs/heads/cm-11.0"
            remote="cm"
            sync-c="true"
@@ -491,6 +488,7 @@
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="pixel" revision="kk" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" groups="pdk, linux, arm" remote="pixel" revision="kk" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" groups="pdk, linux, arm" remote="pixel" revision="kk" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" remote="linaro" revision="master" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="pixel" revision="kk" />
   <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="pixel" revision="kk" groups="caf" />
 
