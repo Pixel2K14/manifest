@@ -12,7 +12,7 @@
   <remote name="pixel"
           fetch="git://github.com/PixelROM" />
   <remote name="linaro"
-          fetch="http://android.git.linaro.org/git-ro/" />
+          fetch="git://android.git.linaro.org/" />
   <remote  name="private"
            fetch="ssh://git@github.com" />
   <default revision="refs/heads/cm-11.0"
