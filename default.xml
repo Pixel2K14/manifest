@@ -476,6 +476,7 @@
   <project path="system/media" name="system_media" remote="pixel" revision="kk" />
   
   <!-- App Packages -->
+  <project path="packages/apps/AboutPixel" name="packages_apps_AboutPixel" remote="pixel" revision="kk" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel" revision="kk" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" revision="kk" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="pixel" revision="kk" />
