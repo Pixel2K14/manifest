@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<!-- KANGED BY ARNAV -->
+<!-- YOUR WELCOME -->
+<!-- THIS SPEEDS UP REPO SYNC A LOT -->
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
