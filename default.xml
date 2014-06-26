@@ -10,7 +10,7 @@
   <remote name="github"
           fetch="git://github.com" />
   <remote name="shit"
-          fetch="git://github.com/PixelROM" />
+          fetch="git://github.com/ShitROM" />
   <remote name="linaro"
           fetch="git://android.git.linaro.org/" />
   <remote  name="private"
@@ -455,7 +455,7 @@
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" remote="github" />
   <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" />
   
-  <!-- PixelROM -->
+  <!-- ShitROM -->
   <!-- Build System -->
   <project path="build" name="build" remote="shit" revision="kk" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -476,7 +476,7 @@
   <project path="system/media" name="system_media" remote="shit" revision="kk" />
   
   <!-- App Packages -->
-  <project path="packages/apps/AboutPixel" name="packages_apps_AboutPixel" remote="shit" revision="kk" />
+  <project path="packages/apps/AboutShit" name="packages_apps_AboutShit" remote="shit" revision="kk" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="shit" revision="kk" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="shit" revision="kk" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="shit" revision="kk" />
@@ -502,7 +502,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" groups="pdk, linux, arm" remote="shit" revision="kk" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" groups="pdk, linux, arm" remote="shit" revision="kk" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" remote="linaro" revision="master" />
-  <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="pixel" revision="kk" groups="caf" />
+  <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="shit" revision="kk" groups="caf" />
   
   <!-- External Packages -->
   <project path="external/stlport" name="android_external_stlport" groups="pdk" />
